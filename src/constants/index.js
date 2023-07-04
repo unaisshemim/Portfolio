@@ -15,15 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
-    inbee
+    inbee,
+    postgress,
+    firebase,
+    swagger
   } from "../assets";
   
   export const navLinks = [
@@ -108,7 +106,16 @@ import {
     {
       name: "docker",
       icon: docker,
-    },
+    },{
+      name:"postgres",
+      icon:postgress
+    },{
+      name:"firebase",
+      icon:firebase
+    },{
+      name:"swagger",
+      icon:swagger
+    }
   ];
   
   const experiences = [
