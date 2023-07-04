@@ -29,7 +29,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID+ 'seviejd')
+    const apiKey = process.env.VITE_APP_PUBLIC_KEY
+    console.log(apiKey)
 
     emailjs
       .send(
