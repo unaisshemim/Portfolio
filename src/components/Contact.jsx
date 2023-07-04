@@ -29,8 +29,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    const apiKey = process.env.VITE_APP_PUBLIC_KEY
-    console.log(apiKey)
+
 
     emailjs
       .send(
