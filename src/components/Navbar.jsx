@@ -3,6 +3,8 @@ import { styles } from "../style";
 import { Link } from "react-router-dom";
 import { logo, menu, close } from "../assets";
 import { navLinks } from "../constants";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -20,13 +22,14 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer ">
-            UNAIZ
-          </p>
+          <motion.div
+          variants={fadeIn("left", "spring", 2, 1)}>
+
+          <img src={logo} alt="logo" className="w-16 h-16 object-contain " />
+          </motion.div>
         </Link>
 
-      <ul className="list-none  flex invisible sm:visible flex-row gap-10  ">
+        <ul className="list-none  flex invisible sm:visible flex-row gap-10  ">
           {navLinks.map((value) => {
             return (
               <li
@@ -58,7 +61,7 @@ const Navbar = () => {
            p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end  items-start flex-col gap-4 ">
-              {navLinks.map((value,index) => {
+              {navLinks.map((value, index) => {
                 return (
                   <li
                     key={`value ${index}`}
