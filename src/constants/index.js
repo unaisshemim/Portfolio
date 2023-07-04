@@ -20,8 +20,8 @@ import {
     tripguide,
     inbee,
     postgress,
-    firebase,
-    swagger
+    // firebase,
+    // swagger
   } from "../assets";
   
   export const navLinks = [
@@ -92,7 +92,7 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
+      name: "Mongo DB",
       icon: mongodb,
     },
     {
@@ -106,16 +106,19 @@ import {
     {
       name: "docker",
       icon: docker,
-    },{
-      name:"postgres",
+    },
+    {
+      name:"postgress",
       icon:postgress
-    },{
-      name:"firebase",
-      icon:firebase
-    },{
-      name:"swagger",
-      icon:swagger
-    }
+    },
+    // {
+    //   name:"firebase",
+    //   icon:firebase
+    // },
+    // {
+    //   name:"swagger",
+    //   icon:swagger
+    // }
   ];
   
   const experiences = [

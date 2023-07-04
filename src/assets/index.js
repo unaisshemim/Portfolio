@@ -20,8 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import postgress from './tech/postgress.png'
-import firebase from './tech/firebase.png'
-import swagger from './tech/swagger.png'
+// import firebase from './tech/firebase.png'
+// import swagger from './tech/swagger.png'
 
 import inbee from './company/inbee.png'
 import carrent from "./carrent.png";
@@ -54,6 +54,6 @@ export {
   tripguide,
   inbee,
   postgress,
-  firebase,
-  swagger
+  // firebase,
+  // swagger
 };
