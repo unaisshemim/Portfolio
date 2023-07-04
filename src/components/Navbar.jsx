@@ -26,13 +26,13 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className="list-none hidden sm:flex  flex-row gap-10  ">
+      <ul className="list-none  flex invisible sm:visible flex-row gap-10  ">
           {navLinks.map((value) => {
             return (
               <li
                 key={`nav links ${value.id}`}
                 className={`${
-                  active === value.title ? "text-white" : "text-secondary"
+                  active === value.title ? "text-white" : "text-secondary "
                 } hover:text-white text-[16px]
               font-medium cursor-pointer`}
                 onClick={() => {
