@@ -22,6 +22,9 @@ import {
     postgress,
     // firebase,
     // swagger
+    ecommerce,
+    dashboard,
+    movie
   } from "../assets";
   
   export const navLinks = [
@@ -148,9 +151,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-commerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The ecommerce app is a streamlined platform that simplifies online shopping. With an intuitive interface, extensive product selection, and secure payment options, it offers a seamless experience for purchasing a wide range of items, from electronics to fashion, all delivered to your doorstep with convenience and reliability.",
       tags: [
         {
           name: "react",
@@ -161,17 +164,17 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "scss",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ecommerce,
+      source_code_link: "https://github.com/unaisshemim",
     },
     {
-      name: "Job IT",
+      name: "Admin Dashboard",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The admin dashboard I will describe is a feature-rich web-based interface designed specifically for administrators and authorized personnel. It provides an extensive array of graphs, charts, and detailed information to enable comprehensive monitoring, analysis, and control of a system, application, or website.",
       tags: [
         {
           name: "react",
@@ -184,22 +187,24 @@ import {
         {
           name: "scss",
           color: "pink-text-gradient",
-        },
+        },{
+          name:"chartjs",
+          color:"orange-text-gradient"
+        }
       ],
-      image: jobit,
+      image: dashboard,
       source_code_link: "https://github.com/unaisshemim",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Movie Review ",
+      description:"The movie review app is a must-have for film enthusiasts. It has a user-friendly interface for discovering, exploring, and sharing movie reviews. With a vast database of films, it offers comprehensive reviews from critics and users, enabling genre browsing, ratings, and detailed film information.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "API",
           color: "green-text-gradient",
         },
         {
@@ -207,8 +212,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: movie,
+      source_code_link: "https://github.com/unaisshemim",
     },
   ];
   

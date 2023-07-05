@@ -27,6 +27,9 @@ import inbee from './company/inbee.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ecommerce from './ecommerce.png'
+import dashboard from './dashboard.png'
+import movie from './movie.png'
 
 export {
   logo,
@@ -54,6 +57,9 @@ export {
   tripguide,
   inbee,
   postgress,
+  ecommerce,
+  dashboard,
+  movie
   // firebase,
   // swagger
 };
